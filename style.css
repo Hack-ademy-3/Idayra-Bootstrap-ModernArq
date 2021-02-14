@@ -1,0 +1,80 @@
+
+body{
+    background-color: white;
+    font-family: 'Advent Pro', sans-serif; 
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: 'Josefin Slab', serif;
+    
+}
+
+h1{
+    color:  black;
+}
+
+:root{
+    --main-color: #808080;
+    --accent-color: #C0C0C0;
+}
+
+.textMain{
+    color: var(--main-color);
+}
+
+.textAccent{
+    color: var(--accent-color);
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+
+.bg-accent{
+    background-color: var(--accent-color);
+}
+
+.myNavbar{
+    background-color: var(--main-color);
+    -webkit-box-shadow: 0px 2px 15px 5px rgba(128,128,128,0.37); 
+    box-shadow: 0px 2px 15px 5px rgba(128,128,128,0.37);
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(white 5%, transparent, white), url('./img/stairs.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .mySub{
+      color: var(--accent-color);
+  }
+
+  .borde-card{
+      border-bottom: 1.5px solid #C0C0C0;
+
+  }
+
+  .arrow{
+      left: 50%;
+      bottom: 0%;
+  }
+
+  .myBorde{
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 2px 15px 5px rgba(128,128,128,0.37); 
+        box-shadow: 0px 2px 15px 5px rgba(128,128,128,0.37);
+     
+  }
+
+  .arqfooter{
+        height: 50vh;
+        min-height: 500px;
+        background: linear-gradient(white 5%, transparent, rgb(0, 0, 0)), url('./img/shadow-building.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+  }
